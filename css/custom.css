@@ -1,0 +1,159 @@
+
+figure {
+    float: left; 
+    text-align: center; 
+    width: 100%;    
+}
+
+html{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+}
+.flexBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+
+.h1Title a{
+    margin-top: 1%;
+    color:forestgreen;
+    font-size: 40pt;
+    font-family: math;
+    display: inline-block;
+    text-shadow: 0px 1px 2px #040404;
+
+}
+
+.h1Title a:hover{
+    text-shadow: 0px 2.5px 2px #040404;
+    transform: scale(1.035);
+}
+
+.h1Name {
+    color: black;
+    font-size: 10pt;
+    margin-bottom: 8pt;
+}
+h2 {
+    color:black;
+    font-size: 25pt;
+    font-family: math;
+    font-size:30pt;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.small {
+    flex: 1 1 200px;
+}
+section {
+    flex: 1 1 350px;
+    margin: 1%; 
+
+}
+
+.large {
+    flex: 1 1 800px;
+}
+
+nav {
+    margin-left: 4%;
+    margin-right: 4%;
+
+    display:flex;
+    flex-wrap:wrap;
+    column-gap: 3%;
+}
+
+nav a {
+    border-style: outset;
+    border-color: darkgray;
+    margin-bottom: 5px;
+    text-align: center;
+    flex: 1 1 5%;
+}
+nav a:hover {
+    border-style: inset;
+    transform: scale(1.1);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+p, li, a{
+    line-height: 1.5;
+}
+
+.botImg, .botImg2{
+    width: 350px;
+    object-fit: contain; 
+    height: auto;
+    max-width: 100%;
+    flex-shrink: 0;
+    
+}
+
+.chartImg, .layoutImg, .layoutImg2{
+    width: 450px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.model{
+    width: 450px;
+    height: 450px; 
+}
+@media (max-width: 800px){
+    .botImg, .botImg2{
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px){
+    .h1Title {
+        font-size:40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    nav a {
+        font-size:22px;
+        flex: 1 1 40%;
+        margin: 2%;
+    }
+
+    .chartImg, .layoutImg, .layoutImg2{
+    width: 300px;
+}
+
+}
