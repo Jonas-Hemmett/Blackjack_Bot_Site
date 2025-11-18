@@ -9,6 +9,8 @@ html{
     background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    /* Needing a scroll bar is kind of annoying, but without it page widths are diffrent and that is much worse */
+    overflow-y: scroll; 
 
 }
 .flexBox {
@@ -64,6 +66,7 @@ h2 {
 }
 section {
     flex: 1 1 350px;
+
     margin: 1%; 
 
 }

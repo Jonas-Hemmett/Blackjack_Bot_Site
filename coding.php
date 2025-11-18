@@ -3,6 +3,7 @@
 ?>
 
 <body>
+    <div class="pageWrapper">
     <main class = "flexBox">
         <section>
             <h2>Python</h2>
