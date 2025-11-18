@@ -30,8 +30,9 @@
                 <h2>GitHub</h2>
                 <p>
                     The files for this project are available on my GitHub:
+                         <a href="https://github.com/Jonas-Hemmett/Blackjack_Bot">github.com/Jonas-Hemmett/Blackjack_Bot</a>
                 </p>
-                <a href="https://github.com/Jonas-Hemmett/Blackjack_Bot">github.com/Jonas-Hemmett/Blackjack_Bot</a>
+                <!-- Empty sections for padding -->
             </section>  
             <section>
             </section>  
