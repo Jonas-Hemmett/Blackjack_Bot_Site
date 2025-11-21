@@ -14,7 +14,7 @@
             <h2>3D Model</h2>
             <div class="center">
                 <model-viewer alt="Housing" src="resources/HousingModel.glb" shadow-intensity="1" camera-controls touch-action="pan-y"
-                camera-orbit="0deg 75deg 5m" class = "model"></model-viewer>
+                camera-orbit="0deg 55deg 5m" class = "model"></model-viewer>
             </div>
 
             <h2>Lasercutting Layout</h2>
