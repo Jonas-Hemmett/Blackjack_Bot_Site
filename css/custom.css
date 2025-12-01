@@ -42,8 +42,14 @@ h1 {
 }
 .h1Title a:hover{
     text-shadow: 0px 3px 2px #040404;
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
+
+.h1Title a:active{
+    text-shadow: 0px 1px 1px #040404;
+    transform: scale(0.99);
+}
+
 
 .h1Name {
     color: black;
@@ -104,7 +110,7 @@ nav > a {
 }
 nav > a:hover {
     border-style: inset;
-    transform: scale(0.975);
+    transform: scale(0.99);
     background-color: #f0e1cd;
     box-shadow: 0px -5px 5px #f5f1db;
     text-decoration:underline;
@@ -112,7 +118,10 @@ nav > a:hover {
 }
 
 nav > a:active{
-    color: #702525;;
+    color: #622020;
+        background-color: #e5d6c2;
+
+    transform: scale(0.97);
 }
 a {
     text-decoration: none;
