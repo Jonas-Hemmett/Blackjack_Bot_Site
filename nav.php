@@ -15,13 +15,13 @@
         if ($pathParts['filename'] == "strategy"){
             print 'activePage';
         }  
-        ?> " href=strategy.php>My Strategy</a>
+        ?> " href=strategy.php>Strategy</a>
 
         <a class="<?php 
         if ($pathParts['filename'] == "ui"){
             print 'activePage';
         }  
-        ?> " href=ui.php>User Interface</a>
+        ?> " href=ui.php>UI</a>
 
         <a class="<?php 
         if ($pathParts['filename'] == "coding"){
@@ -41,7 +41,7 @@
         if ($pathParts['filename'] == "next"){
             print 'activePage';
         }  
-        ?> " href=next.php>Next Steps</a>
+        ?> " href=next.php>Up Next</a>
 
           <a class="<?php 
         if ($pathParts['filename'] == "demos"){

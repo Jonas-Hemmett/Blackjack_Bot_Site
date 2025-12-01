@@ -34,12 +34,12 @@ h1 {
     font-size: 40pt;
     font-family: math;
     display: inline-block;
-    text-shadow: 0px 1px 2px #040404;
+    text-shadow: 0px 2px 2px #040404;
 
 }
 
 .h1Title a:hover{
-    text-shadow: 0px 2px 2px #040404;
+    text-shadow: 0px 3px 4px #040404;
     transform: scale(1.02);
 }
 
@@ -84,16 +84,20 @@ nav {
     column-gap: 3%;
 }
 
-nav a {
+nav > a {
     border-style: outset;
     border-color: darkgray;
     margin-bottom: 5px;
     text-align: center;
     flex: 1 1 5%;
+    border-radius: 8px;
+    background-color: #faeedf;
+
 }
-nav a:hover {
+nav > a:hover {
     border-style: inset;
     transform: scale(0.975);
+    background-color: #f0e1cd;
 
 }
 
@@ -131,6 +135,10 @@ p, li, a{
     width: 450px;
     height: 450px; 
 }
+
+.botVideo1{
+    width: 30%;
+}
 @media (max-width: 800px){
     .botImg, .botImg2{
         width: 90%;
@@ -138,6 +146,10 @@ p, li, a{
 }
 
 @media (max-width: 450px){
+    
+    .botVideo1{
+        width: 90%;
+    }
     .h1Title {
         font-size:40px;
     }
@@ -159,4 +171,9 @@ p, li, a{
     width: 300px;
 }
 
+}
+
+.demo{
+    display: flex;
+    flex-wrap: wrap;
 }
