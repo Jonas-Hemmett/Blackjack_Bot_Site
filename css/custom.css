@@ -83,6 +83,7 @@ nav {
 
     display:flex;
     flex-wrap:wrap;
+    justify-content: center;
     column-gap: 3%;
 }
 
@@ -97,6 +98,8 @@ nav > a {
     box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.705);
     color: #953131;;
     min-width: 71px;
+    margin-top: 2.5px;
+
 
 }
 nav > a:hover {
@@ -149,6 +152,12 @@ p, li, a{
 .botVideo1{
     width: 30%;
 }
+@media (max-width: 868px){
+    nav > a{
+        min-width: 98px;
+        max-width: 98px;
+    }
+}
 @media (max-width: 800px){
     .botImg, .botImg2{
         width: 90%;
@@ -175,12 +184,19 @@ p, li, a{
         font-size:22px;
         flex: 1 1 40%;
         margin: 2%;
+        
     }
 
     .chartImg, .layoutImg, .layoutImg2{
     width: 300px;
+    }
+
 }
 
+@media (max-width: 375px){
+    .h1Title a{
+        font-size: 35pt;
+    }
 }
 
 .demo{
