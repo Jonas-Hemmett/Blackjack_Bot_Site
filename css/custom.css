@@ -184,6 +184,7 @@ p, li, a{
         font-size:22px;
         flex: 1 1 40%;
         margin: 2%;
+        max-width: none;
         
     }
 
