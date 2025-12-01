@@ -92,12 +92,14 @@ nav > a {
     flex: 1 1 5%;
     border-radius: 8px;
     background-color: #faeedf;
+    box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.705);
 
 }
 nav > a:hover {
     border-style: inset;
     transform: scale(0.975);
     background-color: #f0e1cd;
+    box-shadow: 0px -5px 5px #f5f1db;
 
 }
 
