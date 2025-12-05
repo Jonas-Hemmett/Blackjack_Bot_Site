@@ -14,7 +14,7 @@
                     The bot itself is designed solely for entertainment, I play cards with my friends fairly frequently so it's always fun when the blackjack bot gets to make an appearance.
                 </p>
             </section>  
-            <img src="resources/BotAntiqueWhite.jpg" alt = "The Blackjack Bot" class="botImg">
+            <img src="resources/BotAntiqueWhite2.jpg" alt = "The Blackjack Bot" class="botImg">
 
             <section>
                 <h2>Jonas Hemmett</h2>
