@@ -13,7 +13,7 @@
 
              <h2>Simulations & Local Gameplay</h2>
             <p>
-                In order to test the effectiveness of my bot, I coded the game of blackjack from the ground up letting games be simulate locally. In my simulator, the bot plays games agianst a virtual dealer and its profit is tracked. What would take hours to play in real life can be simulated in seconds. I modified the simulation program, letting you play games against the computer on the device (i.e. a blackjack video game).<br>
+                In order to test the effectiveness of my bot, I coded the game of blackjack from the ground up letting me simulate games locally. In the simulator, the bot plays games agianst a virtual dealer and its profit is tracked. What would take hours to play in real life can be simulated in seconds. I modified the simulation program, letting you play games against the computer on the device (i.e. a blackjack video game).<br>
                 <br>
                 I tried a variety of different game and card counting strategies and as expected, more advanced strategies on average were more profitable. Running these simulations further proved to me how much of an edge the dealer really has and how it impacts profitably over the course of many games.
 
