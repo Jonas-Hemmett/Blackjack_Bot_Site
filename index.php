@@ -23,7 +23,7 @@
                     <br>
                     Outside of school, I always try to stay busy. I like skiing, leatherworking & fashion design, and playing games, whether they be video, card, or board.<br>
                     <br>
-                    Feel free to check out my personal site at <a href = "https://jhemmett.com/">JHemmett.com</a>.
+                    You can check out my personal site at <a href = "https://jhemmett.com/">JHemmett.com</a>.
                 </p>
             </section>  
         </div>
