@@ -101,7 +101,7 @@ nav > a {
     flex: 1 1 5%;
     border-radius: 8px;
     background-color: #faeedf;
-    box-shadow: 0px 1px 1.5px rgba(0, 0, 0, 0.705);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.705);
     color: #953131;;
     min-width: 71px;
     margin-top: 2.5px;

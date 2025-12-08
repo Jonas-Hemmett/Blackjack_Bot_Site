@@ -10,8 +10,9 @@
                 <p>
                     I wanted to combine my interest in card games with computer science to create a more efficient playstyle. I was also interested in the practical applications of AI and this was a good opportunity to use it. I started this project in CS 2210: Computer Organization and I've continued to expand it independently using concepts from CS 3240: Algorithm Design & Analysis and CS 2510: Intro Artificial Intelligence. <br>
                     <br>
-
-                    The bot itself is designed solely for entertainment, I play cards with my friends fairly frequently so it's always fun when the blackjack bot gets to make an appearance.
+                    The bot itself is designed solely for entertainment, I play cards with my friends fairly frequently so it's always fun when the blackjack bot gets to make an appearance.<br>
+                    <br>
+                    This project placed second in the 2025 UVM CS fair.
                 </p>
             </section>  
             <img src="resources/BotAntiqueWhite2.jpg" alt = "The Blackjack Bot" class="botImg">
